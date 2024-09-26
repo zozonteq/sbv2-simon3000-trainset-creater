@@ -8,6 +8,11 @@ language = "Japanese"   # 言語
 character = "Kaeya"    # キャラクター名
 repository = 'simon3000/genshin-voice'
 
+
+language  = input("Language(e.g Japanese,Chinese,English):")
+character = input("Character(e.g Kaeya,Paimon):")
+repository= input("repository(e.g. simon3000/genshin-voice,simon3000/starrail-voice):")
+
 dataset = load_dataset(repository, split='train', streaming=True)
 
 # データセットをフィルタリング
