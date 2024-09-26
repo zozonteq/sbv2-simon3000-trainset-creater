@@ -19,4 +19,7 @@ pip install -r requirements.txt
 ```
 python dataset_main.py
 ```
-
+# External Links
+- https://huggingface.co/datasets/simon3000/genshin-voice
+- https://huggingface.co/datasets/simon3000/starrail-voice
+- https://github.com/litagin02/Style-Bert-VITS2
